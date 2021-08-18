@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build . -t mohameddosamaa225/udacity_microservice:v1
+docker build . -t mohameddosamaa225/udacity_microservice
 
 
 # Step 2: 
@@ -13,4 +13,4 @@ docker image ls -f label=name=udacity_microservice
 
 # Step 3: 
 # Run flask app
-docker run  -p 127.0.0.1:8080:80 udacity_microservice:v1
+docker run  -p 127.0.0.1:8080:80 udacity_microservice
